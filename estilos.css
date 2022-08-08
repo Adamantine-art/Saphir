@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "NotoSans-Regular";
+    src: url(Noto\ Sans/notosans-regular.tff);
+}
+@font-face {
+    font-family: "NotoSans-SemiBold";
+    src: url(Noto\ Sans/notosans-semibold.tff);
+}
+@font-face {
+    font-family: "NotoSans-LightItalic";
+    src: url(Noto\ Sans/NotoSans-LightItalic);
+}
+/* Navbar */
+nav {
+    background: rgb(92,223,191);
+    background: linear-gradient(90deg, rgba(92,223,191,1) 0%, rgba(198,221,90,1) 100%);
+    filter: drop-shadow(20px 20px 20px rgba(223, 209, 191, 0.71));
+}
+.nav-link{
+    color: #FFFFFF;
+}
+.logo{
+    width: 40px;
+}
+/* Carousel */
+#carouselExampleFade{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: -2;
+}
+.carousel-item{
+    width: 100%;
+}
+.d-block{
+    width: 100%;
+    border-radius: 30px;
+}
+h4{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 30px 0px 30px;
+}
+/* Cards */
+.card{
+    filter: drop-shadow(15px 14px 20px rgba(238, 223, 204, 0.71));
+}
+.rollers-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px 30px 0px 30px;
+}
+.bladies{
+    margin-bottom: 40px;
+}
+/* Quienes Somos */
+.quienes-somos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.texto-saphir{
+    margin: 40px 30px 50px 30px;
+}
+.quienes-somos{
+    margin: 40px 30px 30px 30px;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.foto-perfil{
+    width: 350px;
+}
+.foto{
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.seccion-quienes-somos{
+    display: flex;
+    align-items: center;
+}
+/* Footer  */
+footer{
+    background: rgb(92,223,191);
+    background: linear-gradient(90deg, rgba(198,221,90,1) 0%, rgba(92,223,191,1) 100%);
+    filter: drop-shadow(20px 20px 20px rgba(223, 209, 191, 0.71));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h6{
+    padding-top: 30px;
+}
+.footer-text{
+    padding-bottom: 20px;
+}
+.img-footer{
+    width: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 10px 0 10px 0;
+}
